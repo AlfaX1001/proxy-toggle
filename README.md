@@ -89,16 +89,6 @@ ProxyToggle stores config at `~/.proxyctl/config.json`:
 }
 ```
 
-### Auto-sync with other apps
-
-When you switch proxies in ProxyToggle, it automatically updates:
-
-| File | Used by |
-|------|---------|
-| `~/.proxyctl/config.json` | ProxyToggle itself |
-| `Projects/syndicate/claude-dashboard/data/proxies.json` | Trading bots |
-| `Projects/syndicate/claude-dashboard/oracle_v2/.env` | Oracle V2 |
-
 ## Why Swift?
 
 The previous version was Python-based and had several issues:
